@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1e1e1e;
+  color: #e4e4e4e6;
+  font-family: Poppins;
+}
+
+button {
+  font-family: Poppins;
+}
+
+header {
+  background-image: linear-gradient( rgba(0,0,0,1), rgba(0,0,0,0));
+  width: 100%;
+  padding: 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 99;
+
+  ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    background-color: rgba(124, 123, 123, 0.267);
+    padding: 16px 20px;
+    border-radius: 15px;
+    backdrop-filter: blur(25px);
+  }
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+a{
+  color: white;
+  opacity: .7;
+  transition: all .3s;
+  text-decoration: none;
+
+  &:hover {
+    opacity: .9;
+  }
+}
+
+.logotipo {
+  width: 60px;
+  height: 60px;
+  border-radius: 20%;
+}
+
+section{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.secao1{
+  display: flex;
+  flex-direction: column;
+  background-image: url(assets/fundo.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  justify-content: center;
+  align-content: center;
+}
+
+.secao1::after{
+  width: 10px;
+}
+
+body section h2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  font-size: 13vh;
+  letter-spacing: 3px;
+  mix-blend-mode: color-dodge;
+  color: rgba(255, 93, 93, 0.705);
+  margin-top: 230px;
+}
+
+body section div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  padding: 5% 10% 0% 10%;
+  font-size: small
+  
+  
+  
+}
+
+.texto {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.assine{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  font-size: 3vh;
+  background-color: rgba(180, 10, 10);
+  border: none;
+  outline: none;
+  padding: 20px 60px;
+  color: #e4e4e4e6;
+  opacity: .9;
+  transition: all .3s;
+}
+.assine:hover{
+  opacity: 100%;
+}
+
+.texto {
+  border-radius: 30px;
+  opacity: .9;
+
+}
+
+.gradiente{
+  background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1));
+  z-index: 80;
+}
+
+.texto1{
+  padding: 15px;
+}
